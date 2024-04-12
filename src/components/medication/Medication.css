@@ -1,0 +1,88 @@
+.medication-component-wrapper,
+.med-wrapper-left,
+.med-wrapper-right {
+  display: flex;
+  align-items: center;
+}
+
+.medication-component-wrapper {
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 0;
+  width: 100%;
+  height: 75px;
+  background-color: #eee;
+  border-radius: 15px;
+  border: 2px solid #c2c1c1;
+}
+
+.med-wrapper-left,
+.med-wrapper-right {
+  flex-direction: column;
+  justify-content: center;
+
+  width: fit-content;
+  gap: 5px;
+  height: 100%;
+  /* border: 2px solid pink; */
+}
+
+.med-wrapper-left {
+  align-items: flex-start;
+}
+
+.med-name,
+.med-dosage {
+  width: 200px;
+  margin: 0;
+  text-align: left;
+  font-weight: 200;
+  color: #000;
+  /* border: 2px solid green; */
+}
+
+.med-name {
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.med-dosage {
+  font-size: 26px;
+}
+
+.toggle-switch {
+  width: 100px;
+  margin: 0 0 5px 0;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.toggle-switch:hover {
+  background-color: #ededed;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Taken Banner */
+.status-message-banner {
+  position: absolute;
+  padding: 5px 7px;
+  /* bottom: -10px; */
+  top: -15px;
+  right: -20px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #1da1f2;
+  border-radius: 5px;
+  z-index: 1;
+}

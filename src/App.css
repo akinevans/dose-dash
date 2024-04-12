@@ -1,3 +1,38 @@
+.App,
+.list-of-meds-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .App {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+}
+
+.app-title,
+.app-subtitle {
+  color: #000;
+  font-weight: 200;
+}
+
+.app-title {
+  font-size: 34px;
+  margin: 15px 0 5px 0;
+}
+
+.app-subtitle {
+  width: 300px;
+  font-size: 26px;
+  margin: 0 0 10px 0;
+}
+
+.list-of-meds-wrapper {
+  gap: 30px;
+  margin: 25px 25px 10px;
+  width: 90%;
+  max-width: 500px;
+  height: fit-content;
 }
